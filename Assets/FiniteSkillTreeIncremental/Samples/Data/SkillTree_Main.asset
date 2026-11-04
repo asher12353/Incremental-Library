@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00aa4e718a88b8540bdaff101cc894d0, type: 3}
+  m_Name: SkillTree_Main
+  m_EditorClassIdentifier: FiniteSkillTreeIncremental.Runtime::FiniteSkillTreeIncremental.SkillTree.SkillTreeDefinition
+  _treeId: core_skill_tree
+  _treeName: Excavation & Metallurgy Tree
+  _description: Finite constellation of passive synergies, notables, and keystones.
+  _nodes:
+  - {fileID: 11400000, guid: 46ee2ab298095e14e999be1f7594d229, type: 2}
+  - {fileID: 11400000, guid: b0fd6ca76a573df4a98e16db86a0eb4a, type: 2}
+  - {fileID: 11400000, guid: 4597cb2fc5efe604a81bd5e497f3a801, type: 2}
+  - {fileID: 11400000, guid: 0a727a809bf7345478631ba4cbdaa66e, type: 2}
+  - {fileID: 11400000, guid: 56d9c493ca6ac6e40b444eeb23a87df8, type: 2}
+  - {fileID: 11400000, guid: db88df5841cb8cc4d91ad6578ed803e9, type: 2}
+  - {fileID: 11400000, guid: aabab579b995a2d42a6493a82dfe90c9, type: 2}
+  _skillPointCurrency: {fileID: 0}
+  _allowRespec: 1
+  _respecCost:
+    _mantissa: 0
+    _exponent: 0

@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="FiniteSkillTreeIncremental.Runtime.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="FiniteSkillTreeIncremental.Editor.csproj" />
+</Solution>

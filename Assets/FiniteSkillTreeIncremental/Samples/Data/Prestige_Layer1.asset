@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2afe602fa5b56542a787b8fd530a4e6, type: 3}
+  m_Name: Prestige_Layer1
+  m_EditorClassIdentifier: FiniteSkillTreeIncremental.Runtime::FiniteSkillTreeIncremental.Prestige.PrestigeLayerDefinition
+  _layerId: transcendence_tier_1
+  _displayName: Transcendence
+  _description: Sacrifice worldly gold to extract permanent Prestige Shards.
+  _layerTier: 1
+  _sourceCurrency: {fileID: 11400000, guid: a7b9152f7617afc47a47faf3f5da8155, type: 2}
+  _rewardCurrency: {fileID: 11400000, guid: 18c7ae3065ec0434abf66b01b9c88cac, type: 2}
+  _baseRequirement:
+    _mantissa: 1
+    _exponent: 5
+  _formulaType: 0
+  _formulaMultiplier: 10
+  _customExponent: 0.5
+  _resetStandardCurrencies: 1
+  _resetGenerators: 1
+  _resetSkillTrees: 1
+  _milestones:
+  - _id: first_transcend
+    _title: First Transcendence
+    _description: Permanent +50% Global Production multiplier.
+    _requiredPrestigeCount: 1
+    _requiredLifetimePrestigeCurrency:
+      _mantissa: 0
+      _exponent: 0
+    _modifiers:
+    - _statType: 0
+      _customKey: 
+      _type: 300
+      _value:
+        _mantissa: 5
+        _exponent: -1
+      _order: 0
+  - _id: veteran_excavator
+    _title: Veteran Excavator
+    _description: Permanent +100% Click Power multiplier.
+    _requiredPrestigeCount: 3
+    _requiredLifetimePrestigeCurrency:
+      _mantissa: 0
+      _exponent: 0
+    _modifiers:
+    - _statType: 1
+      _customKey: 
+      _type: 300
+      _value:
+        _mantissa: 1
+        _exponent: 0
+      _order: 0
